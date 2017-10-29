@@ -31,7 +31,7 @@ class AnalyticsComponent extends Component {
     return (
       <div className="makecall">
         <Toolbar />
-          <a href={"https://hangouts.google.com/call/kja7WAxSRjHgKVWNVgV-AAEE"}>Make a Call</a>
+          <a href={"https://hangouts.google.com/call/WF8hKF9ZdgThEI9KjmNXAAEE"}>Make a Call</a>
           <AppDrawer />
       </div>
     )

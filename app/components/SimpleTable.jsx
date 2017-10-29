@@ -42,6 +42,7 @@ class SimpleTableComponent extends Component {
     open_link.location=fileLink
   }
 
+
   render() {
     let tableList
     if(this.props.ipfs.log)  {

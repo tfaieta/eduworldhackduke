@@ -55,10 +55,10 @@ class AppDrawerComponent extends Component {
             />
           </MenuItem>
           <List>
-            <ListItem primaryText="Dashboard" leftIcon={<ActionDashboard />} containerElement={<Link to="/Dashboard" />} />
-            <ListItem primaryText="Status" leftIcon={<ActionSchedule />} containerElement={<Link to="/Status" />} />
-            <ListItem primaryText="Charts" leftIcon={<EditorChart />} containerElement={<Link to="/Charts" />} />
-            <ListItem primaryText="Analytics" leftIcon={<ActionTrendingUp />} containerElement={<Link to="/Analytics" />} />
+            <ListItem primaryText="Select Role" leftIcon={<ActionDashboard />} containerElement={<Link to="/Dashboard" />} />
+            <ListItem primaryText="Student Info" leftIcon={<ActionSchedule />} containerElement={<Link to="/Status" />} />
+            <ListItem primaryText="Mentor Info" leftIcon={<EditorChart />} containerElement={<Link to="/Charts" />} />
+            <ListItem primaryText="Video Call" leftIcon={<ActionTrendingUp />} containerElement={<Link to="/Analytics" />} />
             <ListItem primaryText="Settings" leftIcon={<ActionSettings />} containerElement={<Link to="/Settings" />} />
           </List>
         </Drawer>

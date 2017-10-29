@@ -1,14 +1,3 @@
-import * as firebase from 'firebase';
-
-var config = {
-    apiKey: "AIzaSyAKca-ISBJ8vaPz10l4rkmejkuQA4F7Dl4",
-    authDomain: "hackduke-e3ecb.firebaseapp.com",
-    databaseURL: "https://hackduke-e3ecb.firebaseio.com",
-    projectId: "hackduke-e3ecb",
-    storageBucket: "hackduke-e3ecb.appspot.com",
-    messagingSenderId: "919797064749"
-};
-    firebase.initializeApp(config);
 
 module.exports = {
   main: (state={

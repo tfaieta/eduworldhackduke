@@ -23,6 +23,7 @@ import { AppDrawer , Dashboard, SimpleTable, GridListWidget, Login, Home, Status
 import { web3 } from '../uport.js'
 import * as mnid from 'mnid'
 
+
 class ToolbarComponent extends Component {
 
   constructor(props) {

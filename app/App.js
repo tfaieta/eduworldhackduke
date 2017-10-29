@@ -13,6 +13,7 @@ import { AppDrawer, Toolbar , Dashboard, SimpleTable, GridListWidget, Login, Hom
 import { setUser } from './actions/userAction'
 import { updateLog } from './actions/logAction'
 import { web3 } from './uport.js'
+import StudentForm from './components/StudentForm.jsx'
 
 injectTapEventPlugin();
 
@@ -33,7 +34,8 @@ class App extends Component {
         <div>
           <Route exact path='/' component={Login} />
           <Route exact path='/Login' component={Login} />
-          <Route exact path='/Dashboard' component={Home} />
+          <Route path='/Dashboard' component={Home} />
+          <Route path='/Dashboard/student' component={StudentForm} />
           <Route exact path='/Status' component={Status} />
           <Route exact path='/Charts' component={Charts} />
           <Route exact path='/Analytics' component={Analytics} />

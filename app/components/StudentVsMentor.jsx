@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Redirect } from 'react-router'
+import { Link, Redirect } from 'react-router-dom'
 
 
 export default class StudentVsMentor extends Component {
@@ -12,7 +12,7 @@ export default class StudentVsMentor extends Component {
 
 
     StudentClick(){
-        this.context.router.push('app/components/Status.jsx')
+        <Redirect to="/Dashboard/student" />
     }
 
     MentorClick(){
@@ -26,7 +26,9 @@ export default class StudentVsMentor extends Component {
         return (
             <div>
                 <h1 className="todoapp">Which One Are You?</h1>
-                <button className="button" onClick = { this.StudentClick }>Student</button>
+                <Link to="/Dashboard/student">
+                    <button className="button" >Student</button>
+                </Link>
                 <button className="button" onClick = { this.MentorClick }>Mentor</button>
             </div>
         );

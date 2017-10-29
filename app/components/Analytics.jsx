@@ -29,10 +29,10 @@ class AnalyticsComponent extends Component {
 
   render() {
     return (
-      <div style={{height:`${this.state.height}px`, width:`${this.state.width}px`}}>
-          <a href={"https://hangouts.google.com/call/kja7WAxSRjHgKVWNVgV-AAEE"}>Make a Call</a>
+      <div className="makecall">
         <Toolbar />
-        <AppDrawer />
+          <a href={"https://hangouts.google.com/call/kja7WAxSRjHgKVWNVgV-AAEE"}>Make a Call</a>
+          <AppDrawer />
       </div>
     )
   }

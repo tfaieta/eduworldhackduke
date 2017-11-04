@@ -1,5 +1,1 @@
-# react-redux-truffle-app
-
-`npm i`
-
-`npm run wds`
+Hack Duke '17
